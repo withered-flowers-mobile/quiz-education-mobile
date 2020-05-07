@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context="com.example.standard.quizmobile.ScoringActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+      android:id="@+id/scoring_textview01"
+      android:layout_width="0px"
+      android:layout_weight="1"
+      android:layout_height="wrap_content"
+      android:text="NIM"
+      android:gravity="start"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView
+      android:id="@+id/scoring_textview02"
+      android:layout_width="0px"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:text="Nama"
+      android:gravity="end"
+      android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+  </LinearLayout>
+
+  <ListView
+    android:id="@+id/scoring_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+  </ListView>
+
+</LinearLayout>

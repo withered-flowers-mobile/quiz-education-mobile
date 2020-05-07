@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="students_array">
+    <item>Kane Lowe</item>
+    <item>Yoshio Franks</item>
+    <item>Florence Oliver</item>
+    <item>Glenna Gilliam</item>
+    <item>Zorita Cardenas</item>
+  </string-array>
+</resources>
